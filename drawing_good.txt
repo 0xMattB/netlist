@@ -1,0 +1,652 @@
+   
+NET LIST REPORT -- E0XXXX-01A.pcb -- Wed Nov 23 08:27:12 2022
+   
+   
+*SIG +3.3V
+U4.20                   C11.2                   C61.1                   C12.2
+C21.1                   C20.1                   U7.2                    U1.37
+C3.1                    C4.1                    U1.90                   C52.2
+C48.2                   C62.1                   C5.1                    C50.2
+C1.2                    C54.2                   R80.1                   J7.1
+U15.10                  U15.16                  U16.1                   U17.1
+U18.1                   U5.20                   U1.11                   U1.14
+U1.28                   U1.64                   U23.4                   C63.1
+   
+*SIG +5V
+C23.1                   C14.1                   C57.1                   C18.1
+U7.3                    C19.1                   R64.1                   C58.1
+PS1.1                   U19.5                   C6.2                    U20.5
+C7.2                    U22.5                   C8.1                    C9.2
+C10.2                   J3.3                    J4.1                    R66.1
+Z1.16                   J5.1                    PS1.2                   U13.11
+U2.20                   U3.20                   C59.1                   U21.5
+   
+*SIG +5V_ISO
+C47.2                   C49.2                   U16.10                  C51.2
+U18.16                  C53.2                   R2.1                    C55.1
+C56.1                   PS1.13                  R1.1                    R3.1
+R4.1                    R9.2                    U15.1                   U16.16
+U17.10                  U17.16                  U18.10                  R100.2
+R101.2                  R102.2
+   
+*SIG +12V
+R73.1                   C24.1                   R22.2                   C25.2
+R37.2                   C27.1                   R27.2                   C30.2
+C40.1                   C42.2                   C15.1                   J3.1
+R26.2                   J6.1                    R36.2                   Q1.C
+VR1.8                   R12.1                   R94.1                   R18.1
+R23.2                   R24.1                   R57.1                   R25.1
+R56.1                   R62.1                   R98.1                   U10.3
+U11.4                   U12.8                   U14.8                   U8.1
+U9.3
+   
+*SIG +V_SELECT
+J3.5                    C13.1                   J5.2                    R63.1
+   
+*SIG -5V
+J3.4                    C26.2                   C17.2                   U14.4
+U6.3
+   
+*SIG -12V
+C16.2                   C31.1                   R21.1                   C41.1
+J3.2                    J6.9                    Q2.C                    R60.1
+U11.11                  U12.4                   U6.2                    U6.4
+   
+*SIG B+
+F1.1                    J3.6
+   
+*SIG CMD_RESET_SW~
+R82.1                   J4.10                   Z1.1
+   
+*SIG FWD_DET
+FL1.2                   R10.2                   R11.1                   R86.1
+R96.1                   TP2.1
+   
+*SIG GATE_INV
+U2.3                    J3.9
+   
+*SIG GND_ISO
+C47.1                   C49.1                   U17.15                  C51.1
+U18.15                  C53.1                   C56.2                   C55.2
+U15.2                   J1.2                    J1.6                    R100.1
+J1.19                   J1.20                   J2.2                    J2.4
+PS1.12                  TP1.2                   U15.8                   U16.9
+U16.15                  U17.9                   U18.9                   R101.1
+R102.1
+   
+*SIG INTF_CMD_ACONN
+J1.18                   J2.1
+   
+*SIG INTF_CMD_GATEN
+J1.15                   J2.3                    R1.2                    R5.1
+   
+*SIG INTF_CMD_RSTN
+J1.5                    R4.2                    R8.1
+   
+*SIG INTF_CMD_SBN
+J1.3                    R2.2                    R6.1
+   
+*SIG INTF_CMD_SDN
+J1.17                   R3.2                    R7.1
+   
+*SIG INTF_FLAG_ACON
+J1.16                   U16.14
+   
+*SIG INTF_FLAG_FLT_DC
+J1.8                    U16.13
+   
+*SIG INTF_FLAG_FLT_ENG
+J1.24                   U17.11
+   
+*SIG INTF_FLAG_FLT_OD
+J1.25                   U18.13
+   
+*SIG INTF_FLAG_FLT_PS
+J1.10                   U17.13
+   
+*SIG INTF_FLAG_FLT_PW
+J1.21                   U16.12
+   
+*SIG INTF_FLAG_FLT_SUM
+J1.11                   U17.12
+   
+*SIG INTF_FLAG_FLT_THERM
+J1.22                   U17.14
+   
+*SIG INTF_FLAG_FLT_VSWR
+J1.12                   U18.14
+   
+*SIG INTF_FLAG_SB
+J1.13                   U18.12
+   
+*SIG INTF_FLAG_SD
+J1.9                    U16.11
+   
+*SIG LED_AC_ON
+J4.3                    U2.18
+   
+*SIG LED_FAULT
+J4.5                    U2.14
+   
+*SIG LED_GATE
+J4.4                    U2.16
+   
+*SIG LED_SHUTDOWN
+U2.9                    J4.7
+   
+*SIG LED_SPARE1
+U2.7                    J4.8
+   
+*SIG LED_SPARE2
+U2.5                    J4.9
+   
+*SIG LED_STANDBY
+U2.12                   J4.6
+   
+*SIG MCU_RX
+U1.61                   J8.4
+   
+*SIG MCU_TX
+J8.5                    U1.62
+   
+*SIG N06244
+R94.2                   R95.3
+   
+*SIG N06264
+U10.4                   R95.2
+   
+*SIG N10182
+R87.2                   C37.1                   U11.3
+   
+*SIG N10184
+R88.1                   U11.1                   C36.2                   U11.2
+   
+*SIG N10467
+C36.1                   R86.2                   R87.1
+   
+*SIG N10621
+U11.6                   C38.2                   U11.7                   U11.10
+   
+*SIG N10623
+R89.2                   C39.1                   U11.5
+   
+*SIG N10637
+R88.2                   C38.1                   R89.1
+   
+*SIG N10845
+R91.1                   R90.1                   U11.9
+   
+*SIG N10855
+R92.1                   R91.2                   U11.8
+   
+*SIG N84836
+R24.3                   Q3.E                    U14.2                   R28.1
+   
+*SIG N85568
+R22.1                   R30.1                   U14.3
+   
+*SIG N85642
+Q3.B                    U14.1
+   
+*SIG N85819
+Q5.B                    R32.1
+   
+*SIG N87081
+C28.1                   CR2.K                   R34.1                   U9.6
+   
+*SIG N87842
+Q3.C                    CR2.A
+   
+*SIG N97742
+R26.1                   R24.2                   R28.2
+   
+*SIG N99300
+R36.1                   R38.2                   U9.7
+   
+*SIG N99868
+R97.1                   R98.2                   U13.8
+   
+*SIG N101250
+R93.1                   R92.2                   U10.5
+   
+*SIG N122569
+R34.2                   Q5.C
+   
+*SIG N154430
+CR4.K                   R96.2                   U13.7
+   
+*SIG N221915
+R41.2                   C34.1                   U12.3
+   
+*SIG N221919
+C32.2                   R46.1                   R50.1                   U12.1
+U12.2
+   
+*SIG N221931
+R40.2                   C32.1                   R41.1
+   
+*SIG N222298
+R54.2                   U9.8
+   
+*SIG N222310
+R56.2                   R54.3
+   
+*SIG N284753
+R52.1                   Q7.B
+   
+*SIG N319828
+R46.2                   R44.1                   U9.9
+   
+*SIG N1144251
+U23.3                   S1.2
+   
+*SIG N1144467
+U1.12                   U1.17                   U1.15                   C2.1
+U1.16                   C60.1
+   
+*SIG N1552508
+F1.2                    R71.1                   R74.1
+   
+*SIG N1552522
+R73.2                   U10.11                  U10.8                   R70.1
+   
+*SIG N1552524
+C46.1                   R74.2                   R75.1                   U10.10
+   
+*SIG N1552560
+JP8.2                   U10.13
+   
+*SIG N1552562
+U10.14                  JP7.2
+   
+*SIG N1552588
+U8.13                   C43.1
+   
+*SIG N1552594
+U8.10                   C44.1
+   
+*SIG N1552622
+R58.2                   R59.1                   U8.4
+   
+*SIG N1552634
+R60.2                   R61.1                   U8.5
+   
+*SIG N1552644
+R61.2                   U8.6
+   
+*SIG N1552648
+JP6.2                   R64.2                   R65.1
+   
+*SIG N1552654
+JP5.2                   R63.2                   R67.1
+   
+*SIG N1552656
+JP5.1                   JP6.1                   U8.9
+   
+*SIG N1552678
+R62.2                   R69.2                   U8.7
+   
+*SIG N1552682
+R66.2                   R68.2                   U8.8
+   
+*SIG N1648979
+R17.1                   R16.2                   U10.7
+   
+*SIG N1648999
+U10.6                   R19.2
+   
+*SIG N1649015
+R18.2                   R19.3
+   
+*SIG N1693572
+JP7.1                   R76.1
+   
+*SIG N1693575
+JP8.1                   R77.1
+   
+*SIG N1791470
+R71.2                   C45.1                   R72.1                   U10.9
+   
+*SIG N1846874
+FL2.1                   J6.7
+   
+*SIG N1846906
+J6.5                    FL1.1
+   
+*SIG N1850922
+U13.1                   R13.2
+   
+*SIG N1850928
+CR1.K                   R11.2                   R14.1                   U13.2
+   
+*SIG N1850936
+R12.2                   R13.3
+   
+*SIG N1850956
+C22.1                   U13.14                  VR1.4
+   
+*SIG N1858912
+Q4.E                    R25.3                   R29.1                   U14.6
+   
+*SIG N1858914
+R23.1                   R31.1                   U14.5
+   
+*SIG N1858916
+R29.2                   R27.1                   R25.2
+   
+*SIG N1858926
+C29.1                   CR3.K                   R35.1                   U9.4
+   
+*SIG N1858928
+Q4.C                    CR3.A
+   
+*SIG N1858934
+Q6.C                    R35.2
+   
+*SIG N1858962
+Q4.B                    U14.7
+   
+*SIG N1858976
+R39.2                   R37.1                   U9.5
+   
+*SIG N1858998
+Q6.B                    R33.1
+   
+*SIG N1859802
+R55.2                   U9.10
+   
+*SIG N1859804
+C33.2                   R47.1                   R51.1                   U12.6
+U12.7
+   
+*SIG N1859806
+C33.1                   R42.2                   R43.1
+   
+*SIG N1859820
+R47.2                   R45.1                   U9.11
+   
+*SIG N1859828
+R43.2                   C35.1                   U12.5
+   
+*SIG N1859860
+R55.3                   R57.2
+   
+*SIG N1859878
+R53.1                   Q8.B
+   
+*SIG N1860543
+JP1.2                   U9.1
+   
+*SIG N1860577
+JP2.2                   U9.2
+   
+*SIG N2374308
+R82.2                   U4.2
+   
+*SIG N2374311
+R83.2                   U4.4
+   
+*SIG N2374314
+R84.2                   U4.6
+   
+*SIG N2374317
+R85.2                   U4.8
+   
+*SIG N2510571
+R6.2                    U15.4
+   
+*SIG N2510573
+R7.2                    U15.5
+   
+*SIG N2510575
+R8.2                    U15.6
+   
+*SIG N2510842
+R5.2                    U15.3
+   
+*SIG N2516235
+Q2.B                    Q1.B                    R20.2
+   
+*SIG N2516247
+R20.1                   U11.14
+   
+*SIG N2521860
+TP1.1                   R9.1
+   
+*SIG N2788821
+R50.2                   Q7.C
+   
+*SIG N2935405
+Y1.2                    C65.1                   U1.27
+   
+*SIG N2935425
+C64.1                   Y1.1                    U1.26
+   
+*SIG N3966339
+U1.5                    U23.2
+   
+*SIG N18597901
+Q8.C                    R51.2
+   
+*SIG PEAK_REFRESH
+R52.2                   R53.2                   U3.9
+   
+*SIG PULSE_ENV_GATE
+R40.1                   U3.18
+   
+*SIG PULSE_ENV_GATE~
+R32.2                   U3.16
+   
+*SIG PULSE_ENV_RF
+R42.1                   U3.14
+   
+*SIG PULSE_ENV_RF~
+R33.2                   U3.12
+   
+*SIG REG_CW_BIAS_CNTL
+J5.6                    U4.9
+   
+*SIG REG_FLT_OC~
+R85.1                   J5.7                    Z1.4
+   
+*SIG REG_FLT_OV~
+R84.1                   J5.5                    Z1.3
+   
+*SIG REG_FLT_UV~
+R83.1                   Z1.2                    J5.4
+   
+*SIG REG_GATE
+J5.8                    U3.7
+   
+*SIG REG_RESET
+J5.9                    U3.5
+   
+*SIG REG_VDD_EN
+J5.11                   U3.3
+   
+*SIG RFL_DET
+FL2.2                   R15.2                   R16.1                   TP2.2
+   
+*SIG RF_PULSE_DET
+U13.5                   U5.17
+   
+*SIG SPARE_1
+R103.1                  U1.56
+   
+*SIG SPARE_2
+R104.1                  U1.55
+   
+*SIG TCK_M
+J7.4                    R80.2                   U1.2
+   
+*SIG TDI_M
+J7.7                    U1.3
+   
+*SIG TDO_M
+J7.6                    U1.4
+   
+*SIG TMS_M
+J7.5                    U1.1
+   
+*SIG TRIG_FLT_DC~
+Q10.C                   Q9.C                    U5.13                   Z1.9
+   
+*SIG TRIG_FLT_ENERGY
+R93.2                   U10.2                   U5.15                   Z1.10
+   
+*SIG TRIG_FLT_OD
+U13.4                   R14.2                   U5.6
+   
+*SIG TRIG_FLT_PS~
+R77.2                   R76.2                   U5.4                    U8.11
+U8.12                   Z1.6
+   
+*SIG TRIG_FLT_PW~
+JP1.1                   JP2.1                   U5.11                   Z1.8
+   
+*SIG TRIG_FLT_THERM~
+J3.7                    U5.2                    Z1.5
+   
+*SIG TRIG_FLT_VSWR
+R17.2                   U10.1                   U5.8                    Z1.7
+   
+*SIG VREF
+U8.2                    R59.2                   C43.2
+   
+*SIG V_ATTN_OUT
+Q1.E                    J3.8                    Q2.E                    U11.13
+   
+*SIG V_ATT_CNTL
+R21.2                   R99.1                   U11.12
+   
+*SIG XI_CMD_GATEN
+U15.14                  U19.1
+   
+*SIG XI_CMD_RESET_SW~
+U4.18                   U1.32
+   
+*SIG XI_CMD_RSTN
+U15.11                  U1.31
+   
+*SIG XI_CMD_SBN
+U15.13                  U1.29
+   
+*SIG XI_CMD_SDN
+U15.12                  U1.30
+   
+*SIG XI_REG_FLT_OC~
+U4.12                   U1.35
+   
+*SIG XI_REG_FLT_OV~
+U4.14                   U1.34
+   
+*SIG XI_REG_FLT_UV~
+U4.16                   U1.33
+   
+*SIG XI_RF_PULSE_DET
+U5.3                    U20.1
+   
+*SIG XI_TRIG_FLT_DC~
+U5.7                    U1.43
+   
+*SIG XI_TRIG_FLT_ENERGY
+U5.5                    U1.44
+   
+*SIG XI_TRIG_FLT_OD
+U5.14                   U1.40
+   
+*SIG XI_TRIG_FLT_PS~
+U5.16                   U1.39
+   
+*SIG XI_TRIG_FLT_PW~
+U5.9                    U1.42
+   
+*SIG XI_TRIG_FLT_THERM~
+U5.18                   U1.36
+   
+*SIG XI_TRIG_FLT_VSWR
+U5.12                   U1.41
+   
+*SIG XO_FLAG_ACON
+U16.3                   U1.98
+   
+*SIG XO_FLAG_FLT_DC
+U16.4                   U1.80
+   
+*SIG XO_FLAG_FLT_ENG
+U17.6                   U1.75
+   
+*SIG XO_FLAG_FLT_OD
+U18.4                   U1.73
+   
+*SIG XO_FLAG_FLT_PS
+U17.4                   U1.77
+   
+*SIG XO_FLAG_FLT_PW
+U16.5                   U1.79
+   
+*SIG XO_FLAG_FLT_SUM
+U17.5                   U1.76
+   
+*SIG XO_FLAG_FLT_THERM
+U17.3                   U1.78
+   
+*SIG XO_FLAG_FLT_VSWR
+U18.3                   U1.74
+   
+*SIG XO_FLAG_SB
+U18.5                   U1.96
+   
+*SIG XO_FLAG_SD
+U16.6                   U1.97
+   
+*SIG XO_GATE_ENABLE
+U19.2                   U1.68                   U20.2
+   
+*SIG XO_GATE_INV
+U2.17                   U3.4                    U19.4                   U21.2
+   
+*SIG XO_LED_AC_ON
+U2.2                    U1.88
+   
+*SIG XO_LED_FAULT
+U2.6                    U1.87
+   
+*SIG XO_LED_GATE
+U2.4                    JP3.2                   U3.13                   U21.4
+   
+*SIG XO_LED_SHUTDOWN
+U2.11                   U1.85
+   
+*SIG XO_LED_SPARE1
+U2.13                   U1.84
+   
+*SIG XO_LED_SPARE2
+U2.15                   U1.83
+   
+*SIG XO_LED_STANDBY
+U2.8                    U1.86
+   
+*SIG XO_PEAK_REFRESH
+U3.11                   U1.69
+   
+*SIG XO_PULSE_ENV_GATE
+JP3.1                   R78.1                   U3.2
+   
+*SIG XO_PULSE_ENV_RF
+JP4.1                   R79.1                   U3.6
+   
+*SIG XO_PULSE_ENV_RF_PRE
+U20.4                   JP4.2                   U22.2
+   
+*SIG XO_PULSE_ENV_RF~
+U3.8                    U22.4
+   
+*SIG XO_REG_CW_BIAS_CNTL
+U4.11                   U1.72
+   
+*SIG XO_REG_RESET
+U3.15                   U1.71
+   
+*SIG XO_REG_VDD_EN
+U3.17                   U1.70
