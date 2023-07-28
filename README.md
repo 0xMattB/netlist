@@ -9,4 +9,4 @@ The netlists are in a similar format, but with subtle differences. This software
 
 There are two sets of sample files.
 The "schematic_good.txt" and "drawing_good.txt" files are a correct match, which shows the output when the files match.
-The "schematic_bad.txt" and "drawing_baad.txt" files contain mis-matches, which shows the output when the files do not match.
+The "schematic_bad.txt" and "drawing_bad.txt" files contain mis-matches, which shows the output when the files do not match.
